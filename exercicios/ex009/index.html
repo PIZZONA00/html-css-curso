@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens flexiveis</title>
+</head>
+<body>
+    <h1>imagens flexiveis</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplismente aumente  e diminua o tamanho das imagens</p>
+    
+    <picture>
+       <source media="(max-width: 1000px )" srcset="imagens/foto-m.png" type="image/">
+        <img src="imagens/foto-g.png" alt="">
+    </picture><!--fds não consegui fazer esse bglh aqui-->
+    
+    <h1>reproduzindo aúdios</h1>
+    <p>vamos aprender a reproduzir aúdios em html</p>
+    <audio src="midia/merry go.mp3" controls autoplay></audio>
+    <p>outra maneira de reproduzir um audio</p>
+    <audio preload="metadata" controls>
+        <source src="midia/merry go.mp3" type="audio/mpeg">
+        <source src="midia/merry go.ogg" type="audio/ogg">
+        <source src="midia/merry go.wav" type="audio/wav"><!--esses são outros tipos de midia de som que caso o mp3 ou outra midia de som nao esteja carregando tantara carregar em ordem as outras midias(e tentar evitar usar o arquivo wav)-->
+    </audio>
+    <p>caso nenhum dos audio seeja compativel com o navegador pode-se baixar o audio com o link <a href="midia/merry go.mp3"></a>
+    </p>
+</body>
+</html>

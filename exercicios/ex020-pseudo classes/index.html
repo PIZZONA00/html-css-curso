@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criando links</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: rgb(181, 181, 55);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    a:active{
+        color: red;
+    }
+    a:before{
+        content: '[Link] ';
+        color: rgb(141, 134, 134);
+        font-weight: normal;
+    }
+    a:after{
+        content: ' [Link]';
+        color: rgb(141, 134, 134);
+        font-weight: normal;
+    }
+</style>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/PIZZONA00" target="_blank">meu github</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40"target="_blank">cursos em video</a></li>
+      <li><a href="https://youtu.be/-FQP7hD-J6A?si=g0LEVlfqVe3q1wEI" target="_blank">video sobre tags</a></li>
+    </ul>
+</body>
+</html>

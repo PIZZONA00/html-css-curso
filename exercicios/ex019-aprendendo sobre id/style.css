@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: sandybrown
+}
+h1#principal{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+h2{
+    color: sandybrown;
+}
+.basico{
+font-weight: bolder ;
+     color:rgb(197, 40, 40) ;
+font
+}
+.intermediario{
+font-weight: bolder ;
+    color: bisque;
+    
+}
+.avançado{
+    font-weight: bolder ;
+color: blue;
+font
+}

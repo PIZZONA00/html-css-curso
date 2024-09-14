@@ -1,0 +1,11 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image:linear-gradient(to right,pink
+    blue);
+}
+p{
+    text-align: justify;
+}
