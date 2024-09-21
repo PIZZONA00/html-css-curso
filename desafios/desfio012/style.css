@@ -53,6 +53,9 @@ section{
     font-family: sriracha;
     font-size: 3.5vw;
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -66,6 +69,12 @@ section.imagem{
 section.imagem > p{
     width: 400px;
     background-color: black;
+}
+section#img01{
+background-image: url();
+}
+section#img02{
+
 }
 footer{
     background-color: black;
