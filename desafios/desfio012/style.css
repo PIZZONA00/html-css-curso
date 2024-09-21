@@ -7,10 +7,9 @@
     font-family:passion one;
     src: url(fontes/PassionOne-Black.ttf);
 }
-
-  :root{
-
-  }
+:root{
+    --fonte:var(--fonte1)
+}
 *{
     margin: 0px;
     padding: 0px;
