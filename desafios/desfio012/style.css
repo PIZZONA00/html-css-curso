@@ -63,17 +63,30 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 46, 46);
     color: white;
-    display: inline-block;
-    padding: 5px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.443);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p{
-    width: 400px;
-    background-color: black;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
-section#img01{
-background-image: url();
+section.imagem > p{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.521) ;
+    
+}
+section#img01 {
+background-image: url('imagens/joaninha.jpg');
+background-position: center center ;
+
 }
 section#img02{
+    background-image: url('imagens/papel.jpg');
+    background-position: center center ;
+    
+
 
 }
 footer{
